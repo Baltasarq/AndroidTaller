@@ -61,5 +61,15 @@ public class Taller {
         this.serviciosContratados[ i ] = value;
     }
 
+    public void eliminaServicios()
+    {
+        /*for(int i = 0; i < this.serviciosContratados.length; ++i) {
+            this.serviciosContratados[ i ] = false;
+        }
+        */
+
+        Arrays.fill( this.serviciosContratados, false );
+    }
+
     private boolean[] serviciosContratados;
 }

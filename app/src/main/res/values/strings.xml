@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Taller</string>
+    <string name="modificar_servicios">Modificar servicios</string>
+    <string name="salir">Salir</string>
 </resources>
